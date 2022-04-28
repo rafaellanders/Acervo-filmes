@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('appTeste', '0008_remove_acervo_descricao_remove_acervo_rating_and_more'),
+        ('App_acervo', '0008_remove_acervo_descricao_remove_acervo_rating_and_more'),
     ]
 
     operations = [

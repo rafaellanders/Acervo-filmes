@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from appTeste.models import Filme, Usuario, Acervo
+from App_acervo.models import Filme, Usuario, Acervo
 
 class FilmeSerializer(serializers.ModelSerializer):
     class Meta:

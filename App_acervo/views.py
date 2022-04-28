@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from rest_framework import viewsets, generics
 from rest_framework.views import APIView
-from appTeste.serializers import FilmeSerializer,UsuarioSerializer,AcervoSerializer,ListaFilmesVistosSerializer, UsuarioSerializerPost
-from appTeste.models import Filme,Usuario,Acervo
+from App_acervo.serializers import FilmeSerializer,UsuarioSerializer,AcervoSerializer,ListaFilmesVistosSerializer, UsuarioSerializerPost
+from App_acervo.models import Filme,Usuario,Acervo
 from rest_framework.authentication import BasicAuthentication,SessionAuthentication
 from rest_framework.permissions import IsAuthenticated, DjangoModelPermissions
 from rest_framework.response import Response

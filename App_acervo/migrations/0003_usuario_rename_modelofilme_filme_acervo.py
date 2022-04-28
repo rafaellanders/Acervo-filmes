@@ -7,7 +7,7 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('appTeste', '0002_modelofilme_delete_modeloteste'),
+        ('App_acervo', '0002_modelofilme_delete_modeloteste'),
     ]
 
     operations = [
@@ -27,8 +27,8 @@ class Migration(migrations.Migration):
             name='Acervo',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('nome', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='appTeste.usuario')),
-                ('titulo', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='appTeste.filme')),
+                ('nome', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='App_acervo.usuario')),
+                ('titulo', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='App_acervo.filme')),
             ],
         ),
     ]
